@@ -1,0 +1,15 @@
+.map-container {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add responsive styling */
+@media (max-width: 768px) {
+  .map-container {
+    height: 70vh;
+  }
+}
